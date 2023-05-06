@@ -1,6 +1,6 @@
 export const Statistics = (props) => {
     let { totalCards, totalItems, total } = props;
-    console.log(totalCards)
+
     return `
     <div class="statistics">
         <div class="statistics-container">
@@ -17,7 +17,7 @@ export const Statistics = (props) => {
                 <p>$${total}</p>
             </div>
         </div>
-        <img src="/app/Assets/statistics.png" alt="statistics">
+        <img src="app/assets/statistics.png" alt="statistics">
     </div>
     `
 }
