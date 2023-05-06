@@ -17,7 +17,7 @@ export const Statistics = (props) => {
                 <p>$${total}</p>
             </div>
         </div>
-        <img src="app/Assets/statistics.png" alt="statistics">
+        <img src="/app/Assets/statistics.png" alt="statistics">
     </div>
     `
 }

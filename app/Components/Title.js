@@ -4,7 +4,7 @@ export const Title = () => {
     $title = document.createElement("h1");
 
     $container.id = "title";
-    $image.src = "app/Assets/carro.png";
+    $image.src = "/app/Assets/carro.png";
     $image.alt = "logo";
     $title.innerText = "LISTA DE COMPRAS";
 
