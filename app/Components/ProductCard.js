@@ -10,7 +10,7 @@ export const ProductCard = (props) => {
                     <p><b>Cantidad/Piezas:</b></p><p class="product-amount">&ensp;<b>${amount}</b></p>
                 </div>
                 <div class="info-price">
-                    <p><b>Precio:</b></p><p class="product-price">&ensp;<b>${price}</b></p>
+                    <p><b>Precio:</b></p><p class="product-price">&ensp;<b>$${price}</b></p>
                 </div>
             </div>
             <div class = "actions">
